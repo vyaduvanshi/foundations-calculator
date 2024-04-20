@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.buttons {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5px 5px;
+    background-color: aliceblue;
+}
+
+.operator {
+    background-color:azure;
+}
+
+.functional {
+    background-color: rgb(230, 211, 240);
+}
+
+button {
+    width: 50px;
+    height: 50px;
+}
+
+.lastrow {
+    width: 104px;
+}
+
+.result {
+    width: 212px;
+    height: 50px;
+    padding: 0;
+    border: 1px solid black;
+    text-align: right;
+    font-size: larger;
+    background-color: antiquewhite;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
